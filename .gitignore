@@ -1,5 +1,5 @@
 *.py[cod]
 *.sqlite*
-*__pycache__*
+**/__pycache__*
 mysite/secrets.json
 mysite/settings.py.bak
