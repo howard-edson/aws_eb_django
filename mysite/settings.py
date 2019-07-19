@@ -34,7 +34,6 @@ def get_secret(setting, secrets=secrets):
 
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = get_secret('SECRET_KEY')
-# SECRET_KEY = 'qf0%@plj=yhrqd7&-ygy7x(6db0)l9f4fmc0j%gk$aa&f1z%p('
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -119,7 +118,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'America/Los_Angeles'
 
 USE_I18N = True
 
