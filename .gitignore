@@ -3,3 +3,8 @@
 **/__pycache__*
 mysite/secrets.json
 mysite/settings.py.bak
+
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
